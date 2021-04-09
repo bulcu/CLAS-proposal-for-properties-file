@@ -1,25 +1,25 @@
 {
   "types": [
     {
-      "name": "EXAMPLE_TYPE",
+      "name": "EXAMPLE_TYPE2",
       "description": "This is an example type"
     }
   ],
   "attributes": [
     {
-      "name": "EXAMPLE_ATTRIBUTE",
+      "name": "EXAMPLE_ATTRIBUTE2",
       "description": "This is an example attribute"
     }
   ],
   "events": [
     {
-      "name": "EXAMPLE_EVENT",
+      "name": "EXAMPLE_EVENT2",
       "description": "This is an example event"
     }
   ],
   "methods": [
     {
-      "name": "EXAMPLE_METHOD",
+      "name": "EXAMPLE_METHOD2",
       "description": "This is an example method",
       "parameters": [
         {
@@ -29,7 +29,7 @@
       ],
       "exceptions": [
         {
-          "name": "CX_STATIC_CHECK",
+          "name": "CX_STATIC_CHECK2",
           "description": "This is an example exception"
         }
       ]
