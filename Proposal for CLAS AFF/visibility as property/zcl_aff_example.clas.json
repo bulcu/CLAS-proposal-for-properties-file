@@ -44,7 +44,7 @@
           "description": "This is an example exception",
         }
       ],
-      "visibility": "public"
+      "visibility": "protected"
     }
   ]
 }

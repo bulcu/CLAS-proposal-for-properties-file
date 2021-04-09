@@ -33,16 +33,6 @@
           "description": "This is an example exception"
         }
       ]
-    },
-    {
-      "name": "EXAMPLE_METHOD4",
-      "description": "This is an example method 4",
-      "parameters": [
-        {
-          "name": "I_PARAM",
-          "description": "Importing parameter"
-        }
-      ]
     }
   ]
 }
