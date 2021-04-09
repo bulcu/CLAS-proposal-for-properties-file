@@ -1,0 +1,51 @@
+{
+  "header": {
+    "$schema": "https://github.com/SAP/abap-file-formats/blob/main/file-formats/clas/clas.json",
+    "description": "Example class for ABAP file formats",
+    "masterLanguage": "EN",
+    "abapLanguageVersion": "standardUnicode"
+  },
+  "fixPointArithmetic": true,
+  "category": "GeneralObjectType",
+  "types": [
+    {
+      "name": "EXAMPLE_TYPE",
+      "description": "This is an example type",
+      "visibility": "public"
+    }
+  ],
+  "attributes": [
+    {
+      "name": "EXAMPLE_ATTRIBUTE",
+      "description": "This is an example attribute",
+      "visibility": "protected"
+    }
+  ],
+  "events": [
+    {
+      "name": "EXAMPLE_EVENT",
+      "description": "This is an example event",
+      "visibility:": "public"
+    }
+  ],
+  "methods": [
+    {
+      "name": "EXAMPLE_METHOD",
+      "description": "This is an example method",
+      "parameters": [
+        {
+          "name": "I_PARAM",
+          "description": "Importing parameter",
+          "visibility:": "public"
+        }
+      ],
+      "exceptions": [
+        {
+          "name": "CX_STATIC_CHECK",
+          "description": "This is an example exception",
+          "visibility:": "public"
+        }
+      ]
+    }
+  ]
+}

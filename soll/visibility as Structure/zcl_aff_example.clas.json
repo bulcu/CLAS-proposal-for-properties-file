@@ -1,0 +1,130 @@
+{
+  "header": {
+    "$schema": "https://github.com/SAP/abap-file-formats/blob/main/file-formats/clas/clas.json",
+    "description": "Example class for ABAP file formats",
+    "masterLanguage": "EN",
+    "abapLanguageVersion": "standardUnicode"
+  },
+  "fixPointArithmetic": true,
+  "category": "GeneralObjectType",
+  "public": [
+    {
+      "types": [
+        {
+          "name": "EXAMPLE_TYPE",
+          "description": "This is an example type"
+        }
+      ],
+      "attributes": [
+        {
+          "name": "EXAMPLE_ATTRIBUTE",
+          "description": "This is an example attribute"
+        }
+      ],
+      "events": [
+        {
+          "name": "EXAMPLE_EVENT",
+          "description": "This is an example event"
+        }
+      ],
+      "methods": [
+        {
+          "name": "EXAMPLE_METHOD",
+          "description": "This is an example method",
+          "parameters": [
+            {
+              "name": "I_PARAM",
+              "description": "Importing parameter"
+            }
+          ],
+          "exceptions": [
+            {
+              "name": "CX_STATIC_CHECK",
+              "description": "This is an example exception"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "protected": [
+    {
+      "types": [
+        {
+          "name": "EXAMPLE_TYPE2",
+          "description": "This is an example type"
+        }
+      ],
+      "attributes": [
+        {
+          "name": "EXAMPLE_ATTRIBUTE2",
+          "description": "This is an example attribute"
+        }
+      ],
+      "events": [
+        {
+          "name": "EXAMPLE_EVENT2",
+          "description": "This is an example event"
+        }
+      ],
+      "methods": [
+        {
+          "name": "EXAMPLE_METHOD2",
+          "description": "This is an example method",
+          "parameters": [
+            {
+              "name": "I_PARAM2",
+              "description": "Importing parameter"
+            }
+          ],
+          "exceptions": [
+            {
+              "name": "CX_STATIC_CHECK2",
+              "description": "This is an example exception"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "private": [
+    {
+      "types": [
+        {
+          "name": "EXAMPLE_TYPE3",
+          "description": "This is an example type"
+        }
+      ],
+      "attributes": [
+        {
+          "name": "EXAMPLE_ATTRIBUTE3",
+          "description": "This is an example attribute"
+        }
+      ],
+      "events": [
+        {
+          "name": "EXAMPLE_EVENT3",
+          "description": "This is an example event"
+        }
+      ],
+      "methods": [
+        {
+          "name": "EXAMPLE_METHOD3",
+          "description": "This is an example method",
+          "parameters": [
+            {
+              "name": "I_PARAM3",
+              "description": "Importing parameter"
+            }
+          ],
+          "exceptions": [
+            {
+              "name": "CX_STATIC_CHECK3",
+              "description": "This is an example exception"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
