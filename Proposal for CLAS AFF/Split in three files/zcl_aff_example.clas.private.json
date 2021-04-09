@@ -20,7 +20,7 @@
   "methods": [
     {
       "name": "EXAMPLE_METHOD3",
-      "description": "This is an example method",
+      "description": "This is an example method 3",
       "parameters": [
         {
           "name": "I_PARAM",
@@ -29,8 +29,18 @@
       ],
       "exceptions": [
         {
-          "name": "CX_STATIC_CHECK3",
+          "name": "CX_STATIC_CHECK",
           "description": "This is an example exception"
+        }
+      ]
+    },
+    {
+      "name": "EXAMPLE_METHOD4",
+      "description": "This is an example method 4",
+      "parameters": [
+        {
+          "name": "I_PARAM",
+          "description": "Importing parameter"
         }
       ]
     }
