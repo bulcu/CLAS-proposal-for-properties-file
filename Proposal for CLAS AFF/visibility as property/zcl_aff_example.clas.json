@@ -11,21 +11,21 @@
     {
       "name": "EXAMPLE_TYPE",
       "description": "This is an example type",
-      "visibility": "private"
+      "visibility": "public"
     }
   ],
   "attributes": [
     {
       "name": "EXAMPLE_ATTRIBUTE",
       "description": "This is an example attribute",
-      "visibility": "public"
+      "visibility": "private"
     }
   ],
   "events": [
     {
       "name": "EXAMPLE_EVENT",
       "description": "This is an example event",
-      "visibility:": "private"
+      "visibility:": "protected"
     }
   ],
   "methods": [
@@ -44,7 +44,7 @@
           "description": "This is an example exception",
         }
       ],
-      "visibility": "protected"
+      "visibility": "public"
     }
   ]
 }

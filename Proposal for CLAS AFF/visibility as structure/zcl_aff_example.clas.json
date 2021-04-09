@@ -43,6 +43,22 @@
               "description": "This is an example exception"
             }
           ]
+        },
+        {
+          "name": "EXAMPLE_METHOD3",
+          "description": "This is an example method",
+          "parameters": [
+            {
+              "name": "I_PARAM3",
+              "description": "Importing parameter"
+            }
+          ],
+          "exceptions": [
+            {
+              "name": "CX_STATIC_CHECK3",
+              "description": "This is an example exception"
+            }
+          ]
         }
       ]
     }
@@ -105,24 +121,6 @@
         {
           "name": "EXAMPLE_EVENT3",
           "description": "This is an example event"
-        }
-      ],
-      "methods": [
-        {
-          "name": "EXAMPLE_METHOD3",
-          "description": "This is an example method",
-          "parameters": [
-            {
-              "name": "I_PARAM3",
-              "description": "Importing parameter"
-            }
-          ],
-          "exceptions": [
-            {
-              "name": "CX_STATIC_CHECK3",
-              "description": "This is an example exception"
-            }
-          ]
         }
       ]
     }
